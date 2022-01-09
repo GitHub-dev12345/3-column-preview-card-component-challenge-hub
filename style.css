@@ -9,6 +9,8 @@ body{
     font-size: 15px;
     margin-top: 90px;
     background: hsl(0, 0%, 95%);
+    box-sizing: content-box;
+    width: 100%;
 }
 
 /* Main Container Css Code  */
@@ -76,9 +78,9 @@ body{
 
 #item-1 .btn:hover{
     background: hsl(31, 77%, 52%);
-    border: 2px solid white;
+    border: 2px solid white transparent;
     color: hsl(0, 0%, 95%);
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
     cursor: pointer;
 }
 
@@ -100,9 +102,9 @@ body{
 /* Inner box Item-2 Button active-status Css Code */
 #item-2 .btn:hover{
     background: hsl(184, 100%, 22%);
-    border: 2px solid white;
+    border: 2px solid white transparent;
     color: hsl(0, 0%, 95%);
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
     cursor: pointer;
 }
 
@@ -120,9 +122,9 @@ body{
 
 #item-3 .btn:hover{
     background: hsl(179, 100%, 13%);
-    border: 2px solid white;
+    border: 2px solid white transparent;
     color: hsl(0, 0%, 95%);
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
     cursor: pointer;
 }
 
