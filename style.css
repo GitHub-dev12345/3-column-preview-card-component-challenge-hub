@@ -3,6 +3,11 @@
 /* font-family: 'Lexend Deca', sans-serif; */
 /* font-family: 'Big Shoulders Display', cursive; */
 
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Body Design Css Code */
 body{
@@ -24,11 +29,12 @@ body{
     margin: auto;
 }
 
-/* Inner box Design Css Code */
+/* Inner box Item Design Css Code */
 .item{
     padding: 40px;
 }
 
+/* Item Box h1 tag CSS Code */
 .item h1{
     font-size: 2.6rem;
     color: hsl(0, 0%, 95%);
@@ -36,6 +42,7 @@ body{
     text-transform: uppercase;
 }
 
+/* Item Box p tag CSS Code */
 .item p{
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
@@ -46,6 +53,7 @@ body{
     cursor: pointer;
 }
 
+/* Item Box button tag CSS Code */
 .item .btn{
     font-size: 15px;
     width: 70%;
@@ -65,10 +73,12 @@ body{
     border-bottom-left-radius: 12px;
 }
 
+/* Item-1-Box p tag CSS Code */
 #item-1 p{
     margin-right: 20px;
 }
 
+/* Item-1-Box button tag CSS Code */
 #item-1 .btn{
     color: hsl(31, 77%, 52%);
     margin-top: 73px;
@@ -85,15 +95,16 @@ body{
 }
 
 /* inner Box Item-2 Css Code */
-
 #item-2{
     background: hsl(184, 100%, 22%);
 }
 
+/* Item-2-Box p tag CSS Code */
 #item-2 p{
     margin-right: 10px;
 }
 
+/* Item-2-Box button tag CSS Code */
 #item-2 .btn{
     color:  hsl(184, 100%, 22%);
     margin-top: 73px;
@@ -115,11 +126,13 @@ body{
     border-bottom-right-radius: 12px;
 }
 
+/* Item-3-Box button tag CSS Code */
 #item-3 .btn{
     color: hsl(179, 100%, 13%);
     margin-top: 73px;
 }
 
+/* Item-2-Box button tag hover effect CSS Code */
 #item-3 .btn:hover{
     background: hsl(179, 100%, 13%);
     border: 2px solid white transparent;
@@ -131,19 +144,22 @@ body{
 /* Footer Design Css Code */
 footer{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     margin-top: 15px;
 }
 
+/* Footer anchor tag Design CSS Code */
 footer a{
-    text-decoration: none;
+    color: red;
     cursor: pointer;
 }
 
 /* Footer Link Visited Css Code  */
-footer a:visited{
+footer a:hover{
+    text-decoration: none;
     color: purple;
 }
 
@@ -157,6 +173,10 @@ footer a:visited{
 
 /* Grid Responsive Css Code */
 @media screen and (max-width: 944px) {
+    body{
+        margin: 0px;
+        transition: 0.4s;
+    }
     .container{
         display: grid;
         width: auto;
@@ -185,13 +205,13 @@ footer a:visited{
     }
 }
 
- @media screen and (max-width: 666px) {
-     #item-1{
-         border-top-right-radius: 12px;
-     }
+@media screen and (max-width: 666px) {
+    #item-1{
+        border-top-right-radius: 12px;
+    }
 
-     #item-2{
-         border-top-right-radius: 0px;
-         border-bottom-right-radius: 0px;
-     }
- }
+    #item-2{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
