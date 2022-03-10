@@ -1,0 +1,33 @@
+// Mixing Codes
+/* Paragraph Mixing Codes */
+@mixin para {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+/* H1 Tag Mixing Codes */
+@mixin h1 {
+    font-size: 2.6rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive; 
+    text-transform: uppercase;
+}
+
+/* Common Button Mixing Codes */
+@mixin button {
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 20px;
+}
