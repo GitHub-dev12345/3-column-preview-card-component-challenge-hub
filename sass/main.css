@@ -189,7 +189,7 @@ footer a:hover {
     display: grid;
     width: auto;
   }
-  #item-1 .btn, #item-2 .btn, #item-3 .btn {
+  #item-1 .btn-1, #item-2 .btn-2, #item-3 .btn-3 {
     margin-top: 10px;
   }
   #item-1 {
