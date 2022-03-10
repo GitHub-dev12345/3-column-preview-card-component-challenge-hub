@@ -1,5 +1,4 @@
-// Mixing Codes
-/* Paragraph Mixing Codes */
+// Paragraph Mixing code 
 @mixin para {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
@@ -10,7 +9,7 @@
     cursor: pointer;
 }
 
-/* H1 Tag Mixing Codes */
+// H1 Tag Mixing Codes
 @mixin h1 {
     font-size: 2.6rem;
     color: hsl(0, 0%, 95%);
@@ -18,7 +17,7 @@
     text-transform: uppercase;
 }
 
-/* Common Button Mixing Codes */
+// Common Button Mixing Codes
 @mixin button {
     font-size: 15px;
     width: 70%;
