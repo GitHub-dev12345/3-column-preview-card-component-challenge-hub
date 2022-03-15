@@ -138,7 +138,7 @@ footer{
     }
 
     #item-1 .btn-1, #item-2 .btn-2, #item-3 .btn-3{
-        margin-top: 10px;
+        margin: 30px 0px 30px -10px;
     }
 
     #item-1{
@@ -156,7 +156,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 666px) {
+@media screen and (max-width: 650px) {
     #item-1{
         border-top-right-radius: 12px;
     }
