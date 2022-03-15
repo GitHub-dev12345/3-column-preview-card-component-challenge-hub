@@ -26,24 +26,26 @@ body {
 
 /* Inner box Item Design Css Code */
 .item {
-  padding: 40px;
+  padding: 50px;
 }
 
 .item h1 {
-  font-size: 2.6rem;
+  font-size: 2rem;
   color: #f2f2f2;
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Big+Shoulders+Display', sans-serif;
   text-transform: uppercase;
+  margin: 30px 0px 50px 0px;
 }
 
 .item p {
-  font-size: 15px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  font-family: 'Big+Shoulders+Display', sans-serif;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.75);
-  line-height: 1.8;
-  margin-top: -12px;
+  line-height: 1.5;
+  margin: -12px 0px 0px -5px;
   cursor: pointer;
+  word-spacing: 2px;
 }
 
 /* inner Box Item-1 Css Code */
@@ -62,7 +64,7 @@ body {
   width: 70%;
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   background-color: #f2f2f2;
   padding: 15px;
   border: none;
@@ -95,7 +97,7 @@ body {
   width: 70%;
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   background-color: #f2f2f2;
   padding: 15px;
   border: none;
@@ -126,7 +128,7 @@ body {
   width: 70%;
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   background-color: #f2f2f2;
   padding: 15px;
   border: none;
