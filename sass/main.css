@@ -5,22 +5,19 @@
 body {
   font-size: 15px;
   margin-top: 90px;
-  background: #f2f2f2;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  background: hsl(0deg, 0%, 95%);
+  box-sizing: content-box;
   width: 100%;
 }
 
 /* Main Container Css Code  */
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: minmax(100px, auto);
   grid-auto-columns: minmax(50px, auto);
   width: 900px;
-  padding: 25px;
+  padding: 26px;
   margin: auto;
 }
 
@@ -28,20 +25,18 @@ body {
 .item {
   padding: 50px;
 }
-
 .item h1 {
   font-size: 2rem;
-  color: #f2f2f2;
-  font-family: 'Big+Shoulders+Display', sans-serif;
+  color: hsl(0deg, 0%, 95%);
+  font-family: "Big+Shoulders+Display", sans-serif;
   text-transform: uppercase;
   margin: 30px 0px 50px 0px;
 }
-
 .item p {
   font-size: 16px;
-  font-family: 'Big+Shoulders+Display', sans-serif;
+  font-family: "Big+Shoulders+Display", sans-serif;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.5;
   margin: -12px 0px 0px -5px;
   cursor: pointer;
@@ -50,11 +45,10 @@ body {
 
 /* inner Box Item-1 Css Code */
 #item-1 {
-  background: #e38826;
+  background: hsl(31deg, 77%, 52%);
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
 }
-
 #item-1 p {
   margin-right: 20px;
 }
@@ -63,31 +57,28 @@ body {
   font-size: 15px;
   width: 70%;
   text-align: center;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
   padding: 15px;
   border: none;
   border-radius: 25px;
   margin-right: 20px;
-  color: #e38826;
+  color: hsl(31deg, 77%, 52%);
   margin-top: 73px;
 }
-
 .btn-1:hover {
-  background: #e38826;
+  background: hsl(31deg, 77%, 52%);
   border: 2px solid white transparent;
-  color: #f2f2f2;
-  -webkit-transition: 0.3s ease-in;
+  color: hsl(0deg, 0%, 95%);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
 /* inner Box Item-2 Css Code */
 #item-2 {
-  background: #006970;
+  background: hsl(184deg, 100%, 22%);
 }
-
 #item-2 p {
   margin-right: 10px;
 }
@@ -96,29 +87,27 @@ body {
   font-size: 15px;
   width: 70%;
   text-align: center;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
   padding: 15px;
   border: none;
   border-radius: 25px;
   margin-right: 20px;
-  color: #006970;
+  color: hsl(184deg, 100%, 22%);
   margin-top: 73px;
 }
-
 .btn-2:hover {
-  background: #006970;
+  background: hsl(184deg, 100%, 22%);
   border: 2px solid white transparent;
-  color: #f2f2f2;
-  -webkit-transition: 0.3s ease-in;
+  color: hsl(0deg, 0%, 95%);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
 /* inner Box Item-3 Css Code */
 #item-3 {
-  background: #004241;
+  background: hsl(179deg, 100%, 13%);
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -127,22 +116,20 @@ body {
   font-size: 15px;
   width: 70%;
   text-align: center;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
-  background-color: #f2f2f2;
+  background-color: hsl(0deg, 0%, 95%);
   padding: 15px;
   border: none;
   border-radius: 25px;
   margin-right: 20px;
-  color: #004241;
+  color: hsl(179deg, 100%, 13%);
   margin-top: 73px;
 }
-
 .btn-3:hover {
-  background: #004241;
+  background: hsl(179deg, 100%, 13%);
   border: 2px solid white transparent;
-  color: #f2f2f2;
-  -webkit-transition: 0.3s ease-in;
+  color: hsl(0deg, 0%, 95%);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -154,14 +141,12 @@ footer {
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
-
 footer a {
   color: orange;
   cursor: pointer;
 }
-
 footer a:hover {
   text-decoration: none;
   color: purple;
@@ -173,16 +158,13 @@ footer a:hover {
     width: auto;
   }
 }
-
 /* Grid Responsive Css Code */
 @media screen and (max-width: 944px) {
   body {
     margin: 0px;
-    -webkit-transition: 0.4s;
     transition: 0.4s;
   }
   .container {
-    display: -ms-grid;
     display: grid;
     width: auto;
   }
@@ -201,7 +183,6 @@ footer a:hover {
     border-bottom-left-radius: 12px;
   }
 }
-
 @media screen and (max-width: 650px) {
   #item-1 {
     border-top-right-radius: 12px;
@@ -213,5 +194,4 @@ footer a:hover {
   footer {
     line-height: 2;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
